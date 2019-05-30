@@ -9,7 +9,7 @@ public class CreateFaxMessageRequest
         return this;
     }
     // Fax resolution
-    public String resolution;
+    public String faxResolution;
     public CreateFaxMessageRequest faxResolution(String resolution) {
         this.faxResolution = resolution;
         return this;
